@@ -1,0 +1,64 @@
+Vijay@DESKTOP-68G5T6A MINGW64 ~/restapi/rest_api
+$ git init
+Initialized empty Git repository in C:/Users/Vijay/restapi/rest_api/.git/
+
+Vijay@DESKTOP-68G5T6A MINGW64 ~/restapi/rest_api (main)
+$ git add .
+
+Vijay@DESKTOP-68G5T6A MINGW64 ~/restapi/rest_api (main)
+$ git commit -m "first commit"
+[main (root-commit) c5dd523] first commit
+ 31 files changed, 354 insertions(+)
+ create mode 100644 app/__init__.py
+ create mode 100644 app/__pycache__/__init__.cpython-38.pyc
+ create mode 100644 app/__pycache__/admin.cpython-38.pyc
+ create mode 100644 app/__pycache__/models.cpython-38.pyc
+ create mode 100644 app/__pycache__/serializers.cpython-38.pyc
+ create mode 100644 app/__pycache__/urls.cpython-38.pyc
+ create mode 100644 app/__pycache__/views.cpython-38.pyc
+ create mode 100644 app/admin.py
+ create mode 100644 app/apps.py
+ create mode 100644 app/migrations/0001_initial.py
+ create mode 100644 app/migrations/0002_account.py
+ create mode 100644 app/migrations/__init__.py
+ create mode 100644 app/migrations/__pycache__/0001_initial.cpython-38.pyc
+ create mode 100644 app/migrations/__pycache__/0002_account.cpython-38.pyc
+ create mode 100644 app/migrations/__pycache__/__init__.cpython-38.pyc
+ create mode 100644 app/models.py
+ create mode 100644 app/serializers.py
+ create mode 100644 app/tests.py
+ create mode 100644 app/urls.py
+ create mode 100644 app/views.py
+ create mode 100644 db.sqlite3
+ create mode 100644 harsha.txt
+ create mode 100644 manage.py
+ create mode 100644 restapi/__init__.py
+ create mode 100644 restapi/__pycache__/__init__.cpython-38.pyc
+ create mode 100644 restapi/__pycache__/settings.cpython-38.pyc
+ create mode 100644 restapi/__pycache__/urls.cpython-38.pyc
+ create mode 100644 restapi/__pycache__/wsgi.cpython-38.pyc
+ create mode 100644 restapi/settings.py
+ create mode 100644 restapi/urls.py
+ create mode 100644 restapi/wsgi.py
+
+Vijay@DESKTOP-68G5T6A MINGW64 ~/restapi/rest_api (main)
+$ git branch -M main
+
+Vijay@DESKTOP-68G5T6A MINGW64 ~/restapi/rest_api (main)
+$ git remote add origin https://github.com/harshathalari555/new_api.git
+
+Vijay@DESKTOP-68G5T6A MINGW64 ~/restapi/rest_api (main)
+$ git push -u origin main
+Enumerating objects: 37, done.
+Counting objects: 100% (37/37), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (35/35), done.
+Writing objects: 100% (37/37), 16.88 KiB | 1016.00 KiB/s, done.
+Total 37 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/harshathalari555/new_api.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Vijay@DESKTOP-68G5T6A MINGW64 ~/restapi/rest_api (main)
+$
